@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: grey;
+}
+
+
+input[type=text], input[type=email],
+select,
+textarea {
+    margin-top: 6px;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    margin-bottom: 30px;
+    background-color: #d0df09;
+    color: rgb(42, 0, 157);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(42, 0, 157);
+    color: #d0df09;
+    font-weight: bold;
+}
+
+/* Add a background color and some padding around the form */
+.message {
+    margin: 0 auto;
+    max-width: 60vw;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.n-input {
+    min-width: 150px;
+    max-width: 25vw;
+}
+
+.ps {
+    color: grey;
+    margin-bottom: 30px;
+}
