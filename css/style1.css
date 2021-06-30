@@ -89,9 +89,3 @@ body {
     position: relative;
     bottom: 70px;
 }
-/* Need to check working
-@media (min-width: 480px) {
-    body{
-    font-size: 50%;
-    }
-}*/
